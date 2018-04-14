@@ -22,5 +22,8 @@ public class CadastroUsuario extends AppCompatActivity {
 
         Toast.makeText(this,"Nome do Usuario: "+usuarioNome,Toast.LENGTH_SHORT).show();
         Toast.makeText(this,"Cidade do Usuario: "+usuarioCidade,Toast.LENGTH_SHORT).show();
-    }
+
+        //Nesta linha será feito a conexão entre a aplicação em PHP e o Android
+        //Para Salvar os dados
+     }
 }

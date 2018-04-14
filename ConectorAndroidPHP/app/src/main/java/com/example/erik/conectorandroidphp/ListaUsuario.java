@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class ListaUsuario extends AppCompatActivity implements AdapterView.OnItemClickListener {
     private ListView listViewUsuario;
@@ -28,6 +29,7 @@ public class ListaUsuario extends AppCompatActivity implements AdapterView.OnIte
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-        Log.i("MainActivity",adapterView.getItemAtPosition(i).toString());
+        Log.i("MainActivity","Teste: "+adapterView.getItemAtPosition(i).toString());
+        //Toast.makeText(this,"Nome do Usuario: "+adapterView.getItemAtPosition(i).toString(),Toast.LENGTH_SHORT).show();
     }
 }
