@@ -42,7 +42,7 @@ public class AdapterUsuario extends BaseAdapter {
         TextView cidade = (TextView) viewLinha.findViewById(R.id.textViewCidade);
         Usuario usuario = usuarios.get(i);
         nome.setText(usuario.getNome());
-        cidade.setText(usuario.getCidade());
+        cidade.setText(usuario.getRg());
 
         return viewLinha;
     }

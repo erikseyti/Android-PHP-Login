@@ -16,12 +16,12 @@ public class CadastroUsuario extends AppCompatActivity {
     public void CadastrarUsuario(View view)
     {
         EditText editNome = (EditText) findViewById(R.id.editNome);
-        EditText editCidade = (EditText)findViewById(R.id.editCidade);
+        EditText editRG = (EditText)findViewById(R.id.editRg);
         String usuarioNome = editNome.getText().toString();
-        String usuarioCidade = editCidade.getText().toString();
+        String usuarioRg = editRG.getText().toString();
 
         Toast.makeText(this,"Nome do Usuario: "+usuarioNome,Toast.LENGTH_SHORT).show();
-        Toast.makeText(this,"Cidade do Usuario: "+usuarioCidade,Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"Cidade do Usuario: "+usuarioRg,Toast.LENGTH_SHORT).show();
 
         //Nesta linha será feito a conexão entre a aplicação em PHP e o Android
         //Para Salvar os dados
